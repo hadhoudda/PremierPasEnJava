@@ -1,16 +1,22 @@
 package org.houda.hello;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class HelloWorld {
 
 	public static void main(String[] args) {
+		List<String> myList = new ArrayList<String>();
 		sayText("Bonjour tout le monde");
 		Person p1= new Person("Abdel", 48, "masculin");
 		Person p2 = new Person("Houda",40,"féminin");
 		Familly f1= new Familly("Ben Aoun",7,p1);
 		Familly f2 = new Familly("Ben Abdallah",11,p2);
-		System.out.println(f1.nomberPerson);
-		System.out.println(f2.nomberPerson);
-
+		myList.add(f1.prenomFammilly);
+		myList.add(f2.prenomFammilly);
+//		System.out.println(f1.nomberPerson);
+//		System.out.println(f2.nomberPerson);
+		System.out.println(myList);
 	}
 	
 	private static void sayText(String text) {
