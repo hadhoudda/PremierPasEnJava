@@ -1,12 +1,23 @@
 package org.houda.hello;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class HelloWorld {
 
 	public static void main(String[] args) {
 		List<String> myList = new ArrayList<String>();
+		Map<String, Integer> mapPersons=new HashMap<String, Integer>();
+		mapPersons.put("Selsabil",15);
+		mapPersons.put("Sajed",14);
+		mapPersons.put("Yassin",10);
+		mapPersons.put("Assil",9);
+		mapPersons.put("Aymen",3);
+		for(Map.Entry <String, Integer> entry : mapPersons.entrySet()) {
+			printEntry(entry);
+		}
 		sayText("Bonjour tout le monde");
 		Person p1= new Person("Abdel", 48, "masculin");
 		Person p2 = new Person("Houda",40,"féminin");
@@ -30,6 +41,10 @@ public class HelloWorld {
 		System.out.println("l'heure est :");
 		System.out.println(java.time.LocalTime.now());
 	}
+	//afficher les entres de map
+		static void printEntry(Map.Entry entry) {
+				System.out.println(entry.getKey()+"-->"+entry.getValue());
+			}	
 	// declaration des class
 	static class Familly {
 		String prenomFammilly;
