@@ -15,6 +15,7 @@ public class HelloWorld {
 		mapPersons.put("Yassin",10);
 		mapPersons.put("Assil",9);
 		mapPersons.put("Aymen",3);
+		mapPersons.put("Houda",40);
 		mapPersons.put("Jawad",48);
 		for(Map.Entry <String, Integer> entry : mapPersons.entrySet()) {
 			printEntry(entry);
