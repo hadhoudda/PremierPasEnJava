@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 public class HelloWorld {
-
 	public static void main(String[] args) {
 		List<String> myList = new ArrayList<String>();
 		Map<String, Integer> mapPersons=new HashMap<String, Integer>();
@@ -25,6 +24,8 @@ public class HelloWorld {
 		Person p2 = new Person("Houda",40,"féminin");
 		Familly f1= new Familly("Ben Aoun",7,p1);
 		Familly f2 = new Familly("Ben Abdallah",11,p2);
+		Age ageP1 = new Age("sarah",12);
+		System.out.println(ageP1.prenom);
 		myList.add(f1.prenomFammilly);
 		myList.add(f2.prenomFammilly);
 //		System.out.println(f1.nomberPerson);
