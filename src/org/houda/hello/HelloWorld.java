@@ -24,7 +24,7 @@ public class HelloWorld {
 		Person p2 = new Person("Houda",40,"féminin");
 		Familly f1= new Familly("Ben Aoun",7,p1);
 		Familly f2 = new Familly("Ben Abdallah",11,p2);
-		Age ageP1 = new Age("sarah",12);
+		Age ageP1 = new Age("sarah",15);
 		System.out.println(ageP1.prenom);
 		myList.add(f1.prenomFammilly);
 		myList.add(f2.prenomFammilly);
