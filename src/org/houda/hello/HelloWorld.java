@@ -7,6 +7,15 @@ import java.util.Map;
 
 public class HelloWorld {
 	public static void main(String[] args) {
+		/*
+		 * String n ="3254";
+		 * int nn = Integer.parseInt(n); //transforme une chaine en nombre numerique
+		 * System.out.println(nn);
+		 * char c ='\n';
+		 * boolean cc = Character.isJavaIdentifierStart(c);
+		 * System.out.println(cc);
+		 */
+		
 		List<String> myList = new ArrayList<String>();
 		Map<String, Integer> mapPersons=new HashMap<String, Integer>();
 		mapPersons.put("Selsabil",15);
