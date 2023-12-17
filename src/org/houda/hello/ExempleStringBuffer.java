@@ -16,9 +16,10 @@ public class ExempleStringBuffer {
 			System.out.println(text2);
 			
 			String text3 = "bonjour "+ "tout ";
+			System.out.println(text3);
 			/*
-			 * on peut utilise le 3 concatunation
-			 * StringBuffer et StringBuilder sont plus utilisés en boucle
+			 * on peut utilise le 3 concatunation precedants
+			 * StringBuffer et StringBuilder sont utilisés surtout en boucle
 			 */
 		
 
