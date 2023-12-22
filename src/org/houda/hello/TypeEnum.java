@@ -9,14 +9,14 @@ public class TypeEnum {
 
 	// ctrl + shift + o == importe les import necessaires
 	public static void main(String[] args) throws Exception {
-		Color color = Color.VERT;
+		Color color1 = Color.VERT;
 		Color color2 = Color.ORANGE;
 		Color color3 = Color.ROUGE;
 		System.out.println("choisir votre couleur :");
 		String action = keyboard.readLine();
 
 		if (action.equals("VERT")) {
-			System.out.println("votre chois est :" + color);
+			System.out.println("votre chois est :" + color1);
 		} else if (action.equals("ORANGE")) {
 			System.out.println("votre chois est :" + color2);
 		} else if (action.equals("ROUGE")) {
